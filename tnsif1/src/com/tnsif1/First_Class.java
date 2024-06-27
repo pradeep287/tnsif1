@@ -19,6 +19,7 @@ class Applicant{
 		Scanner scan=new Scanner(System.in);
 		System.out.println("enter your age");
 		age=scan.nextInt();
+		System.out.println("hello");
 	}
 	void verify() throws Exception {
 		if(age<18) {
